@@ -45,3 +45,5 @@ jobs:
       - name: Deploy Project
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
 ```
+
+Vercel doc : https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
